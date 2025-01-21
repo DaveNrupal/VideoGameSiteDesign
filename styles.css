@@ -1,0 +1,244 @@
+/* Name : Nrupalben Nirajkumar Dave
+Student number : 9018590 */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: #1995AD;
+    background-color: #F1F1F2;
+}
+
+header {
+    background-color: #1995AD;
+    color: #F1F1F2;
+    padding: 10px 20px;
+    display: flex; 
+    align-items: center;
+    gap: 20px; 
+}
+
+header img {
+    max-width: 80px;
+    border-radius: 50%;
+}
+
+main {
+    padding: 10px;
+    background-color: #A1D6E2;
+    min-height: 300px;
+}
+
+.navigationBar {
+    background-color: #1995AD;
+    text-align: center;
+    padding: 10px;
+}
+
+.navigationBar a {
+    padding: 20px;
+    color: #F1F1F2;
+}
+
+a:hover {
+    background-color:  #A1D6E2;
+    border: 1px solid #F1F1F2;
+    color: black;
+}
+
+.historySection{
+    background-color: #F1F1F2;
+    border-radius: 15px;
+    padding: 10px;
+    margin: 10px;
+}
+
+.historySection h2 {
+    text-align: center;
+}
+
+.imageSection{
+    background-color: #F1F1F2;
+    border-radius: 15px;
+    padding: 10px;
+    margin: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    margin: 20px 0;
+}
+
+.imageSection img {
+    width: 300px;
+    height: 600px;
+    border-radius: 10px;
+    width: 40%; 
+    margin-right: 20px; 
+}
+
+.imageSection p {
+    width: 55%; 
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+@media (max-width: 768px) {
+    .imageSection {
+        flex-direction: column; 
+        align-items: center;
+    }
+
+    .imageSection img {
+        width: 80%; 
+        margin-right: 0;
+        margin-bottom: 15px;
+    }
+
+    .imageSection p {
+        width: 90%; 
+    }
+}
+
+.gamesContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 10px;
+    margin: 20px;
+}
+
+.gameContent {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: space-evenly;
+    text-align: center;
+    background-color: #F1F1F2;
+    border-radius: 15px;
+    padding: 10px;
+    width: 30%; 
+    box-sizing: border-box; 
+}
+
+.gameContent img {
+    padding: 10px;
+    height: 200px;
+    width: 300px;
+    border-radius: 20px;
+}
+
+.benifitsSection{
+    background-color: #F1F1F2;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+    border-radius: 15px;
+}
+
+.benifitsSection h2{
+    text-align: center;
+}
+
+.benifitsSection img {
+    height: 500px;
+    width: 90%;
+    border-radius: 20px;
+}
+
+.factsSection{
+    background-color: #F1F1F2;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 15px;
+}
+
+.factsSection h2 {
+    text-align: center;
+}
+
+.factsSection li {
+    padding: 5px;
+}
+
+.feedbackSection {
+    background-color: #f9fafb; 
+    padding: 20px;
+    margin: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+}
+
+.feedbackSection h3 {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.feedbackForm {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 20px;
+    margin: 20px;
+}
+
+.feedbackForm label{
+    font-size: 16px;
+    margin: 5px;
+}
+
+.checkboxStyle , .radioStyle {
+    display: inline;
+    padding: 10px;
+}
+
+ .feedbackForm input,
+.feedbackForm textarea {
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+}
+
+.feedbackForm input:focus,
+.feedbackForm textarea:focus {
+    border-color: #007bff;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+    outline: none;
+}
+
+.feedbackForm button {
+    padding: 10px 20px;
+    margin: 5px;
+    font-size: 16px;
+    border: none;
+    border-radius: 10px;
+    background-color: #007bff; 
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.feedbackForm button:hover {
+    background-color: #0056b3;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.feedbackForm button[type="reset"] {
+    background-color: #f44336; 
+}
+
+.feedbackForm button[type="reset"]:hover {
+    background-color: #c23328;
+}
+
+footer {
+    text-align: center;
+    background-color: #1995AD;
+    color: #F1F1F2;
+    padding: 10px;
+}
+
+footer p {
+    margin: 0;
+}

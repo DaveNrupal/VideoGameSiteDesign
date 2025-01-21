@@ -1,0 +1,91 @@
+<!-- Name : Nrupalben Nirajkumar Dave
+Student number : 9018590 -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="author" content="Nrupalben Nirajkumar Dave">
+    <meta name="keywords" content="home, benifits, video games, playing, people, improve, vision, active, feedback, submit, reset, weely, daily">
+    <meta name="description" content="Page which provides information about benifits of video games.">
+    <title>About Us</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+  </head>
+  <body>
+    <header class="header-content">
+      <img src="/images/logo.jpg" alt="logo" />
+      <h1>Nrupal Dave | ndave8590@conestogac.on.ca</h1>
+    </header>
+    <main>
+      <nav class="navigationBar">
+        <a href="/home.html">Home</a>
+        <a href="https://en.wikipedia.org/wiki/List_of_video_games_considered_the_best">Download</a>
+      </nav>
+      <section class="benifitsSection">
+        <h2>Benefits of Playing Video Games</h2>
+        <img src="/images/aboutPageImg.jpg" alt="benifits of Game" />
+      </section>
+      <section class="factsSection">
+        <h2>Amazing Facts about Playing Video games</h2>
+        <ul>
+          <li>Video games could help people overcome dyslexia.</li>
+          <li>Video games could improve your vision.</li>
+          <li>Video games could help make you a better leader.</li>
+          <li>Video games could pique your interest in history.</li>
+          <li>Video games can make kids more active.</li>
+        </ul>
+        <iframe
+          width="560"
+          height="315"
+          src="https://www.youtube.com/embed/OOsqkQytHOs?si=FPx-e0AmY0wFEp_6"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          referrerpolicy="strict-origin-when-cross-origin"
+          allowfullscreen
+        ></iframe>
+      </section>
+      <section class="feedbackSection">
+        <h3>Give us your feedback here!</h3>
+        <form class="feedbackForm">
+          <label>Name</label>
+          <input type="text" name="name" id="name">
+
+          <label>Email</label>
+          <input type="email" name="email" id="email">
+
+          <label>Your feedback</label>
+          <textarea rows="5" cols="30"></textarea>
+
+          <section class="checkboxStyle">
+            <p>Which of these types of games do you enjoy?</p>
+            <input type="checkbox" id="action" name="gameType" value="Action">
+            <label>Action</label>
+
+            <input type="checkbox" id="strategy" name="gameType" value="Strategy">
+            <label for="strategy">Strategy</label>
+
+            <input type="checkbox" id="sports" name="gameType" value="Sports">
+            <label for="sports">Sports</label>
+        </section>
+
+        <section class="radioStyle">
+            <p>How often do you play video games?</p>
+            <label for="daily">Daily</label>
+            <input type="radio" id="daily" name="playFrequency" value="Daily">
+
+            <label for="weekly">Weekly</label>
+            <input type="radio" id="weekly" name="playFrequency" value="Weekly">
+        </section>
+          
+          <button type="reset">Reset</button>
+          <button type="submit">Submit</button>
+        </form>
+      </section>
+    </main>
+    <footer>
+      <address>
+        <p>&copy; Nrupal Dave , ndave8590@conestogac.on.ca</p>
+      </address>
+    </footer>
+  </body>
+</html>
